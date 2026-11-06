@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17121f">
+  <meta name="description" content="Actualidad y noticias verificadas del teatro musical: estrenos, anuncios, agenda y escena argentina.">
+  <title>Actualidad y noticias | Mundo Teatro Musical</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="actualidad.css">
+</head>
+<body class="news-page">
+  <div class="topline"><span>LA REVISTA DIGITAL DEL TEATRO MUSICAL</span><span>ARGENTINA · BROADWAY · WEST END · EL MUNDO</span></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Mundo Teatro Musical, inicio"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a class="active" href="actualidad.html">Actualidad</a><a href="cartelera.html">Cartelera</a><a href="index.html#entrevistas">Entrevistas</a><a href="resenas.html">Reseñas</a><a href="index.html#universo">El universo musical</a>
+    </nav>
+    <a class="header-link" href="index.html#newsletter">SUMATE <span>↗</span></a>
+  </header>
+  <main>
+    <section class="news-hero">
+      <div class="news-hero-inner">
+        <span class="eyebrow"><i></i> LO QUE ESTÁ PASANDO</span>
+        <h1>Actualidad<br><em>en escena.</em></h1>
+        <p>Anuncios, estrenos y movimientos del teatro musical, con enlaces a las fuentes para que puedas ampliar cada noticia.</p>
+        <div class="news-hero-foot"><span>NOTICIAS Y NOVEDADES</span><span>ARGENTINA · NOVIEMBRE 2026</span></div>
+      </div>
+      <div class="news-hero-art" aria-hidden="true"><span class="news-orbit orbit-one"></span><span class="news-orbit orbit-two"></span><span class="news-star">✳</span><span class="news-hero-word">EN<br>ESCENA</span><span class="news-art-caption">EL TELÓN SIGUE SUBIENDO</span></div>
+    </section>
+    <section class="news-content">
+      <div class="news-intro"><div><span class="eyebrow">LA CONVERSACIÓN DE HOY</span><h2>Noticias del musical</h2></div><p>Selección editorial basada en información publicada por medios y organizaciones. Las novedades se presentan con su fecha y fuente; los anuncios se identifican como tales.</p></div>
+      <div class="news-controls">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="newsSearch" type="search" placeholder="Buscar obra, sala o tema…" aria-label="Buscar noticias"></label>
+        <label class="filter-box"><span>TEMA</span><select id="newsFilter" aria-label="Filtrar por tema"><option value="all">Todos los temas</option><option value="estrenos">Estrenos y anuncios</option><option value="agenda">Agenda y funciones</option><option value="escena">Escena argentina</option></select></label>
+      </div>
+      <div class="results-line"><span id="newsCount" aria-live="polite"></span><span>ORDENADAS POR FECHA DE PUBLICACIÓN</span></div>
+      <div class="news-grid" id="newsGrid"></div>
+      <div class="empty-state" id="emptyState" hidden><span>✳</span><h3>No encontramos noticias</h3><p>Probá con otro título, sala o tema.</p></div>
+      <p class="editorial-note">Mundo Teatro Musical no es autor de las noticias enlazadas. Cada ficha resume brevemente información publicada por su fuente; consultá el artículo original para el desarrollo y posibles actualizaciones.</p>
+    </section>
+    <section class="news-cta"><div><span class="eyebrow">SEGUÍ EXPLORANDO</span><h2>La escena cambia<br><em>función a función.</em></h2><p>Visitá también la cartelera y el archivo de reseñas.</p></div><div class="news-cta-links"><a href="cartelera.html">IR A CARTELERA <span>↗</span></a><a href="resenas.html">LEER RESEÑAS <span>↗</span></a></div></section>
+  </main>
+  <footer><a class="brand footer-brand" href="index.html"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a><p>Una revista para quienes viven el teatro musical.</p><span class="copyright">© 2026 MUNDO TEATRO MUSICAL · TODOS LOS DERECHOS RESERVADOS</span></footer>
+  <script src="app.js"></script>
+  <script src="actualidad.js"></script>
+</body>
+</html>
