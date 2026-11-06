@@ -72,7 +72,7 @@ def main():
             with urlopen(request, timeout=25) as response:
                 payload = response.read()
             for title, url, raw_date in entries_from(payload):
-                title = re.sub(r"\\s+", " ", title).strip()
+                title = re.sub(r"\s+", " ", title).strip()
                 url = clean_url(url)
                 date = parse_date(raw_date)
                 if not title or not url.startswith("http") or date is None:
@@ -99,7 +99,7 @@ def main():
             print(f"No se pudo leer {publisher} ({feed_url}): {exc}")
     ordered = sorted(items.values(), key=lambda row: (row.get("date", ""), row.get("title", "")), reverse=True)[:100]
     result = {"generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"), "items": ordered}
-    DATA_FILE.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    DATA_FILE.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Guardadas {len(ordered)} noticias")
 
 if __name__ == "__main__":
