@@ -1,108 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Historia del Teatro Musical</title>
-
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background: #f5f2f0;
-    margin: 0;
-    color: #25212a;
-}
-
-header {
-    background: #24152f;
-    color: white;
-    padding: 35px;
-    text-align: center;
-}
-
-article {
-    max-width: 850px;
-    margin: 40px auto;
-    background: white;
-    padding: 35px;
-    line-height: 1.8;
-}
-
-h1, h2 {
-    color: #a52c59;
-}
-
-.fecha {
-    color: #777;
-    font-size: 14px;
-}
-
-.volver {
-    display: inline-block;
-    margin-top: 30px;
-    color: #a52c59;
-}
-
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17121f">
+  <meta name="description" content="Un recorrido por la historia del teatro musical: de sus raíces diversas a Broadway y West End, y de la zarzuela criolla al musical argentino contemporáneo.">
+  <title>Historia del teatro musical | Mundo Teatro Musical</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .history-hero{background:#17121f;color:#fff;padding:72px max(calc((100% - 1120px)/2),7%) 65px;position:relative;overflow:hidden}
+    .history-hero:after{content:"♪";position:absolute;right:12%;top:-70px;font:400 420px/1 "Playfair Display";color:#d99dad12}
+    .history-hero .eyebrow{color:#e1a9b8}.history-hero h1{font:700 clamp(45px,6vw,76px)/1.02 "Playfair Display";letter-spacing:-1.5px;max-width:800px;margin:22px 0}
+    .history-hero h1 em{color:#d99dad}.history-hero p{max-width:710px;color:#d2c5d4;line-height:1.8;font-size:15px}
+    .history-content{max-width:1120px;margin:auto;padding:56px 32px 86px}
+    .history-intro{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;margin-bottom:42px}
+    .history-intro h2,.history-section h2{font:700 34px/1.1 "Playfair Display";margin:0 0 14px;color:#241a2a}
+    .history-intro p,.history-section>p{font-size:14px;line-height:1.85;color:#706873;margin:0}
+    .history-callout{background:#f3e5e7;border-left:3px solid #a54d6c;padding:21px 23px;color:#4b3c4b;font:600 17px/1.55 "Playfair Display"}
+    .history-jump{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 48px;padding-bottom:21px;border-bottom:1px solid #e7dfe0}
+    .history-jump a{display:inline-block;padding:10px 14px;border:1px solid #e7dfe0;text-decoration:none;color:#8f3157;font-size:10px;letter-spacing:1px;font-weight:700}
+    .history-section{margin:0 0 66px;scroll-margin-top:120px}
+    .history-section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:25px}
+    .history-section-head p{font-size:10px;letter-spacing:1.1px;color:#877d88;text-align:right;margin:0}
+    .timeline{border-top:1px solid #e2d8dc}
+    .timeline-item{display:grid;grid-template-columns:145px 1fr;gap:24px;padding:23px 0;border-bottom:1px solid #e2d8dc}
+    .timeline-year{font:700 25px "Playfair Display";color:#a54d6c}
+    .timeline-item h3{font:600 22px "Playfair Display";margin:0 0 8px;color:#2b2030}
+    .timeline-item p{max-width:770px;margin:0;color:#706873;font-size:13px;line-height:1.8}
+    .inline-source{color:#8f3157;text-decoration:underline;text-underline-offset:3px}
+    .history-two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .history-note{background:#f7f1ed;padding:22px;border-bottom:2px solid #d5a1af}
+    .history-note h3{font:600 21px "Playfair Display";margin:0 0 9px}.history-note p{font-size:13px;line-height:1.8;color:#706873;margin:0}
+    .history-note .category{display:block;margin-bottom:10px}
+    .sources{background:#211927;color:white;padding:38px 42px}
+    .sources h2{font:700 30px "Playfair Display";margin:0 0 9px}
+    .sources>p{color:#c9bdca;font-size:12px;line-height:1.7;margin:0 0 16px}
+    .sources ol{margin:0;padding-left:20px;display:grid;grid-template-columns:1fr 1fr;gap:12px 30px}
+    .sources li{padding-left:4px;color:#d2c5d4;font-size:12px;line-height:1.6}
+    .sources a{color:#efb8c4;text-underline-offset:3px}
+    .history-back{display:inline-block;margin-top:32px;color:#8f3157;text-decoration:none;font-size:10px;letter-spacing:1.2px;font-weight:700}
+    @media(max-width:650px){.history-hero{padding:54px 24px 44px}.history-hero:after{right:-25%;font-size:300px}.history-content{padding:40px 20px 60px}.history-intro,.history-two-col{grid-template-columns:1fr;gap:18px}.history-section-head{display:block}.history-section-head p{text-align:left;margin-top:10px}.timeline-item{grid-template-columns:86px 1fr;gap:12px}.timeline-year{font-size:20px}.timeline-item h3{font-size:19px}.sources{padding:27px 22px}.sources ol{grid-template-columns:1fr;gap:10px}.history-intro h2,.history-section h2{font-size:30px}}
+  </style>
 </head>
-
 <body>
+  <div class="topline"><span>LA REVISTA DIGITAL DEL TEATRO MUSICAL</span><span>ARGENTINA · BROADWAY · WEST END · EL MUNDO</span></div>
+  <header class="site-header">
+    <a class="brand" href="../index.html#inicio" aria-label="Mundo Teatro Musical, inicio"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="../actualidad.html">Actualidad</a><a href="../cartelera.html">Cartelera</a><a href="../artistas.html">Artistas</a><a href="../index.html#entrevistas">Entrevistas</a><a href="../resenas.html">Reseñas</a><a class="active" href="../index.html#universo">El universo musical</a>
+    </nav>
+    <a class="header-link" href="../index.html#newsletter">SUMATE <span>↗</span></a>
+  </header>
+  <main>
+    <section class="history-hero">
+      <span class="eyebrow"><i></i> ARCHIVO · HISTORIA Y LENGUAJE</span>
+      <h1>Una historia que<br><em>sigue escribiéndose.</em></h1>
+      <p>El teatro musical no nació en un único lugar ni avanzó en línea recta. Sus formas se cruzan con la ópera, la zarzuela, la revista, el vaudeville, la danza y la canción popular. Este recorrido pone en diálogo algunos hitos internacionales y argentinos, con fuentes para seguir leyendo.</p>
+    </section>
+    <div class="history-content">
+      <section class="history-intro">
+        <div><h2>¿Qué llamamos teatro musical?</h2><p>Una obra donde actuación, música, canto y movimiento participan de la narración. A veces una canción revela lo que un personaje no consigue decir; otras, la coreografía organiza el espacio o cambia el pulso de la escena. Cada tradición combina esos elementos a su manera.</p></div>
+        <div class="history-callout">No hay una única fecha de nacimiento: hay tradiciones distintas que, con el tiempo, dieron forma a lo que hoy reconocemos como musical.</div>
+      </section>
+      <nav class="history-jump" aria-label="Ir a una sección de la historia"><a href="#mundo">RECORRIDO MUNDIAL ↓</a><a href="#argentina">ARGENTINA ↓</a><a href="#claves">CLAVES PARA ESCUCHAR ↓</a><a href="#fuentes">FUENTES ↓</a></nav>
 
-<header>
-<h1>MUNDO TEATRO MUSICAL</h1>
-<p>Revista internacional de teatro musical</p>
-</header>
+      <section class="history-section" id="mundo">
+        <div class="history-section-head"><div><span class="eyebrow">TRADICIONES EN DIÁLOGO</span><h2>El recorrido mundial</h2></div><p>HITOS Y CAMBIOS DE LENGUAJE</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-year">Siglos XVIII–XIX</div><div><h3>Raíces plurales</h3><p>La escena popular fue reuniendo canciones, danza, humor y relato en formatos como la opereta, el vaudeville, la revista y el burlesque. Por eso, tomar una obra como “el origen” del musical moderno simplifica una historia con muchas ramas. La <a class="inline-source" href="https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/parlor-and-concert-stage/musicals/">Biblioteca del Congreso de Estados Unidos</a> presenta precisamente esa diversidad de antecedentes.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">1866</div><div><h3><em>The Black Crook</em> y una fecha discutida</h3><p>La producción neoyorquina suele mencionarse como un hito temprano por la escala del espectáculo y su combinación de melodrama, música y danza. No conviene llamarla sin matices “el primer musical”: los historiadores señalan que esa respuesta depende de qué entendemos por musical. <a class="inline-source" href="https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/parlor-and-concert-stage/musicals/">La Biblioteca del Congreso explica el debate</a>.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">1927</div><div><h3><em>Show Boat</em>: la música empuja el relato</h3><p>La obra de Jerome Kern y Oscar Hammerstein II es considerada un punto de inflexión: canciones, acción dramática y temas sociales aparecen más unidos que en muchas formas anteriores. No resolvió las contradicciones raciales de su época, pero sí amplió lo que el musical podía contar. <a class="inline-source" href="https://explore.lib.virginia.edu/exhibits/show/theatre/musicals">La Universidad de Virginia la describe como un punto de giro</a>.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">1943</div><div><h3><em>Oklahoma!</em> y la integración escénica</h3><p>En el trabajo de Rodgers y Hammerstein, canciones y danza se articulan con la trama y los personajes. La coreografía también puede contar: deja de ser únicamente un número intercalado y pasa a formar parte de la acción. La <a class="inline-source" href="https://explore.lib.virginia.edu/exhibits/show/theatre/musicals">exhibición de la Universidad de Virginia</a> señala esta colaboración como otro cambio importante de forma.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">1960–1979</div><div><h3>Nuevas voces, nuevos sonidos</h3><p>Los cambios culturales llevaron a Broadway a revisar sus convenciones. El rock, la actualidad política y otras formas de composición abrieron caminos diferentes para el género; no hubo un único modelo que reemplazara a los anteriores. <a class="inline-source" href="https://www.pbs.org/wnet/broadway/timelines/">La cronología de PBS recorre esa etapa</a> como un período de reinvención.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">1980 en adelante</div><div><h3>Una escena internacional</h3><p>La circulación de grandes producciones, junto con nuevas versiones y adaptaciones, conectó circuitos como Broadway y el West End con públicos de distintos países. Esa expansión no borró las escenas locales: cada ciudad traduce, adapta y crea desde sus propios contextos. PBS estudia esta etapa como la conversión de Broadway en un fenómeno global.</p></div></article>
+        </div>
+      </section>
 
-<article>
+      <section class="history-section" id="argentina">
+        <div class="history-section-head"><div><span class="eyebrow">UNA TRADICIÓN PROPIA</span><h2>El musical en Argentina</h2></div><p>BUENOS AIRES · ESCENAS LOCALES · CRUCES</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-year">1810 y siglo XIX</div><div><h3>Teatros con música, zarzuela y formas populares</h3><p>En los primeros espacios teatrales porteños convivían dramas, tonadillas, zarzuelas y sainetes. Son antecedentes de una escena donde palabra y música compartían cartel, aunque no fueran todavía el musical contemporáneo. Un estudio publicado en la <em>Revista de Historia</em> de la Universidad Nacional del Comahue documenta esa programación del Coliseo Provisional.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">1889–1890</div><div><h3><em>De paso por aquí</em> y la zarzuela criolla</h3><p>La pieza de Miguel Ocampo aparece en los relatos históricos como una temprana zarzuela criolla: una forma local que dialogaba con modelos españoles y con asuntos de acá. Las fuentes consultadas no fijan una única fecha de estreno —se mencionan funciones en 1889 y 1890—, así que es mejor conservar ese margen que convertirlo en una fecha definitiva. El libro de investigación <a class="inline-source" href="https://inteatro.ar/wp-content/uploads/2022/10/La-revista-portena-Demaria.pdf">La revista porteña</a> revisa ese registro.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">1926</div><div><h3><em>Judía</em>: una etiqueta en construcción</h3><p>La obra de Ivo Pelay fue anunciada como “comedia musical”, en un momento en que revista, varieté y musical todavía se mezclaban en la práctica y en la prensa. La historia del género local no se deja ordenar en categorías rígidas desde el comienzo. <a class="inline-source" href="https://www.clarin.com/rn/escenarios/escenarios-Buenos-Aires_0_SJHDr7iPml.html">La reconstrucción de Clarín sobre los escenarios porteños</a> cuenta ese debate.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">Décadas de 1940–1950</div><div><h3>Un período de auge y cruces</h3><p>El musical argentino encontró una etapa de crecimiento con producciones propias y diálogo con la revista, las varietés y el repertorio internacional. Desde los años cincuenta también empezó a ganar presencia la reposición local de títulos extranjeros. La historia recogida por Clarín, a partir de la investigación de Pablo Gorlero, ayuda a seguir ese cambio.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">1956</div><div><h3><em>Simple y maravilloso</em> en el Astral</h3><p>La versión porteña de <em>Plain and Fancy</em> se estrenó en el Teatro Astral. Es señalada como una de las primeras grandes llegadas de una comedia musical estadounidense con elenco argentino. Un registro de la Asociación Argentina de Empresarios Teatrales consigna la obra en la cartelera de ese mes.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">26 ago 1991</div><div><h3><em>Drácula</em> convoca a un nuevo público</h3><p>El musical de Pepe Cibrián Campoy y Ángel Mahler llegó al Luna Park y se convirtió en un hito de escala y convocatoria para el género local. Años después, LA NACION repasó su recorrido, sus temporadas y giras internacionales. La nota también recoge cómo la obra acercó nuevos espectadores al teatro musical.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">Hoy</div><div><h3>Crear, adaptar y volver a mirar</h3><p>La escena argentina combina obras originales, adaptaciones, reposiciones, producción comercial y experiencias independientes. Ese presente no es una copia tardía de Broadway: forma parte de una historia de intercambios, lenguajes populares y decisiones artísticas propias.</p></div></article>
+        </div>
+      </section>
 
-<p class="fecha">02 de noviembre de 2026 | HISTORIA</p>
+      <section class="history-section" id="claves">
+        <div class="history-section-head"><div><span class="eyebrow">GUÍA PARA ESPECTADORES</span><h2>Claves para escuchar y mirar</h2></div><p>UNA PEQUEÑA CAJA DE HERRAMIENTAS</p></div>
+        <div class="history-two-col">
+          <article class="history-note"><span class="category">01 · CANCIÓN</span><h3>¿Qué cambia cuando alguien canta?</h3><p>Prestá atención a la información nueva que trae la canción, a quién la escucha y a cómo queda la escena después. Si el personaje podría volver al mismo punto sin cantar, quizá la canción cumple otra función: crear atmósfera, comentario o espectáculo.</p></article>
+          <article class="history-note"><span class="category">02 · MOVIMIENTO</span><h3>El cuerpo también narra</h3><p>La danza puede mostrar un conflicto, una comunidad, una época o una transformación. Mirá cómo se relacionan los intérpretes y qué aporta el movimiento que no estaba en el diálogo.</p></article>
+          <article class="history-note"><span class="category">03 · TRADICIÓN</span><h3>¿De dónde viene este sonido?</h3><p>Rock, tango, folclore, jazz, pop y música académica pueden convivir en un musical. Identificar esas huellas ayuda a entender la identidad de la obra y sus conversaciones con otras épocas.</p></article>
+          <article class="history-note"><span class="category">04 · CONTEXTO</span><h3>¿Quién puede contar la historia?</h3><p>Las obras reflejan su momento: qué historias eligen, a quién ponen en el centro y qué voces dejan afuera también forman parte de su lenguaje.</p></article>
+        </div>
+      </section>
 
-<h1>Historia del Teatro Musical</h1>
-
-<h2>Introducción</h2>
-
-<p>
-El teatro musical es una forma de espectáculo escénico
-que combina actuación, música, canto y danza para
-desarrollar una historia.
-</p>
-
-<h2>Los orígenes</h2>
-
-<p>
-Sus antecedentes se encuentran en diferentes tradiciones
-teatrales y musicales, entre ellas la ópera, la opereta,
-el vaudeville y el teatro popular.
-</p>
-
-<h2>La evolución del género</h2>
-
-<p>
-Con el paso del tiempo, el teatro musical desarrolló
-nuevas formas de narración, composición, interpretación
-y puesta en escena.
-</p>
-
-<h2>El teatro musical en la actualidad</h2>
-
-<p>
-Actualmente, el género tiene una presencia internacional,
-con grandes producciones en Broadway, West End,
-Argentina y numerosos escenarios del mundo.
-</p>
-
-<h2>Conclusión</h2>
-
-<p>
-El teatro musical continúa evolucionando y reuniendo
-distintas disciplinas artísticas en una misma experiencia.
-</p>
-
-<a class="volver" href="../index.html">← Volver al inicio</a>
-
-</article>
-
+      <section class="sources" id="fuentes">
+        <h2>Fuentes para seguir leyendo</h2>
+        <p>Este recorrido es una síntesis editorial de Mundo Teatro Musical. Las fechas y referencias se contrastaron con estos materiales; cuando el registro histórico admite más de una lectura, lo señalamos.</p>
+        <ol>
+          <li><a href="https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/parlor-and-concert-stage/musicals/">Library of Congress · “Musicals”</a>, raíces y discusión sobre los orígenes del musical estadounidense.</li>
+          <li><a href="https://explore.lib.virginia.edu/exhibits/show/theatre/musicals">University of Virginia · “Musicals”</a>, síntesis sobre <em>Show Boat</em> y <em>Oklahoma!</em>.</li>
+          <li><a href="https://www.pbs.org/wnet/broadway/timelines/">PBS · Broadway: The American Musical, cronología</a>, evolución de Broadway y expansión global.</li>
+          <li><a href="https://revele.uncoma.edu.ar/index.php/historia/article/download/2146/pdf/59447">Universidad Nacional del Comahue · <em>Revista de Historia</em>, n.º 19</a>, actividad teatral porteña y Coliseo Provisional.</li>
+          <li><a href="https://inteatro.ar/wp-content/uploads/2022/10/La-revista-portena-Demaria.pdf">INTeatro · <em>La revista porteña</em>, de Beatriz Seibel</a>, historia de la revista y la zarzuela criolla.</li>
+          <li><a href="https://www.clarin.com/rn/escenarios/escenarios-Buenos-Aires_0_SJHDr7iPml.html">Clarín · “Los escenarios de Buenos Aires”</a>, investigación sobre la historia del musical en Argentina basada en el trabajo de Pablo Gorlero.</li>
+          <li><a href="https://aadet.org.ar/app/uploads/2022/11/boletines_1956.pdf">Aadet · Boletín de marzo de 1956</a>, registro de <em>Simple y maravilloso</em> en el Teatro Astral.</li>
+          <li><a href="https://www.lanacion.com.ar/espectaculos/teatro/los-25-anos-del-vampiro-cantor-nid1858058/">LA NACION · “Los 25 años del vampiro cantor”</a>, recorrido por <em>Drácula</em> y su impacto en el público argentino.</li>
+          <li><a href="https://ihaal.institutos.filo.uba.ar/node/513">UBA · Instituto de Historia del Arte Argentino y Latinoamericano</a>, colección académica sobre la historia del teatro argentino.</li>
+        </ol>
+      </section>
+      <a class="history-back" href="../index.html#universo">← VOLVER A EXPLORAR EL UNIVERSO MUSICAL</a>
+    </div>
+  </main>
+  <footer><a class="brand footer-brand" href="../index.html#inicio"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a><p>Una revista para quienes viven el teatro musical.</p><span class="copyright">© 2026 MUNDO TEATRO MUSICAL · TODOS LOS DERECHOS RESERVADOS</span></footer>
+  <script src="../app.js"></script>
 </body>
 </html>
