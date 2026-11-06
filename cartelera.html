@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#17121f">
+<meta name="description" content="Cartelera de teatro musical y teatro en Buenos Aires 2026 y 2027.">
+<title>Cartelera 2026–2027 | Mundo Teatro Musical</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="cartelera.css">
+</head>
+<body>
+<div class="topline"><span>LA REVISTA DIGITAL DEL TEATRO MUSICAL</span><span>BUENOS AIRES · 2026 / 2027</span></div>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a>
+<button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+<nav class="main-nav" id="mainNav"><a href="index.html#actualidad">Actualidad</a><a class="active" href="cartelera.html">Cartelera</a><a href="index.html#entrevistas">Entrevistas</a><a href="index.html#criticas">Críticas</a><a href="index.html#universo">El universo musical</a></nav><a class="header-link" href="index.html#newsletter">SUMATE ↗</a></header>
+<main>
+<section class="agenda-hero"><div class="agenda-hero-inner"><span class="eyebrow">AGENDA · BUENOS AIRES</span><h1>La cartelera<br><em>está en escena.</em></h1><p>Espectáculos, temporadas, reposiciones y próximos estrenos. Una guía para seguir el teatro porteño durante 2026 y 2027.</p><div class="agenda-count"><strong id="resultCount">—</strong><span>ESPECTÁCULOS EN ESTA SELECCIÓN</span></div></div><div class="agenda-hero-stamp">MTM<br><small>GUÍA 2026—27</small></div></section>
+<section class="agenda-content">
+<div class="agenda-intro"><div><span class="eyebrow">ENCONTRÁ TU PRÓXIMA FUNCIÓN</span><h2>Explorá la agenda</h2></div><p>Los datos se muestran según su estado de publicación. Confirmá horarios, disponibilidad y valores con la sala o ticketera antes de comprar.</p></div>
+<div class="filters">
+<label class="search-field"><span>BUSCAR</span><input id="searchInput" type="search" placeholder="Obra, teatro, artista..."></label>
+<label><span>AÑO</span><select id="yearFilter"><option value="all">Todos</option><option value="2026">2026</option><option value="2027">2027</option></select></label>
+<label><span>ESTADO</span><select id="statusFilter"><option value="all">Todos los estados</option><option value="En cartel / función anunciada">En cartel / función anunciada</option><option value="Estreno anunciado">Estreno anunciado</option><option value="Temporada anunciada">Temporada anunciada</option><option value="Anuncio preliminar">Anuncio preliminar</option></select></label>
+<label><span>TIPO</span><select id="typeFilter"><option value="all">Todos los formatos</option><option value="Musical">Musical</option><option value="Teatro">Teatro</option><option value="Familiar">Familiar</option><option value="Danza / música">Danza / música</option></select></label>
+</div>
+<div class="agenda-toolbar"><span id="filterSummary">Selección editorial inicial · Buenos Aires</span><button id="clearFilters" type="button">LIMPIAR FILTROS ×</button></div>
+<div class="show-grid" id="showGrid" aria-live="polite"></div>
+<div class="empty-state" id="emptyState" hidden>No encontramos espectáculos con esos filtros. Probá con otra búsqueda.</div>
+<section class="agenda-legend"><h3>Cómo leer esta cartelera</h3><div class="legend-items"><p><b class="dot dot-confirmed"></b><strong>Función o temporada anunciada:</strong> existe información publicada, pero los datos pueden cambiar.</p><p><b class="dot dot-pre"></b><strong>Anuncio preliminar:</strong> proyecto mencionado públicamente; faltan datos esenciales por confirmar.</p><p><b class="dot dot-pending"></b><strong>Información pendiente:</strong> no se publican precios ni horarios cuando no hay una fuente confiable disponible.</p></div><small>Esta guía es una selección editorial en construcción. Última revisión de esta carga inicial: 5 de noviembre de 2026. No reemplaza la información oficial de teatros y ticketeras.</small></section>
+</section>
+</main>
+<footer><a class="brand footer-brand" href="index.html"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a><p>Una revista para quienes viven el teatro musical.</p><span class="copyright">© 2026 MUNDO TEATRO MUSICAL · TODOS LOS DERECHOS RESERVADOS</span></footer>
+<script src="app.js"></script><script src="cartelera.js"></script>
+</body></html>
