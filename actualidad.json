@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T15:00:00Z",
+  "generatedAt": "2026-11-06T15:05:00Z",
   "items": [
     {
       "date": "2026-11-04",
@@ -110,6 +110,18 @@
       "tags": "la llamada confirmó su temporada de verano en mar del plata"
     },
     {
+      "date": "2026-10-23",
+      "dateLabel": "23 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Frozen abrió audiciones para Anna y Elsa",
+      "summary": "La convocatoria incorporó a niñas para los papeles de Anna y Elsa en la próxima producción porteña del musical.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/frozen-abrio-audiciones-para-anna-y-elsa/",
+      "tags": "frozen abrió audiciones para anna y elsa"
+    },
+    {
       "date": "2026-10-22",
       "dateLabel": "22 OCT 2026",
       "category": "estrenos",
@@ -146,6 +158,42 @@
       "tags": "frozen abrió audiciones para su nueva producción en buenos aires"
     },
     {
+      "date": "2026-10-20",
+      "dateLabel": "20 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Frozen buscó a la intérprete de Elsa para Buenos Aires",
+      "summary": "La producción anunció una búsqueda de elenco para su llegada al Gran Rex, prevista para 2027.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/frozen-busco-a-la-interprete-de-elsa-para-buenos-aires/",
+      "tags": "frozen buscó a la intérprete de elsa para buenos aires"
+    },
+    {
+      "date": "2026-10-20",
+      "dateLabel": "20 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Nine abrió audiciones para su regreso a la Argentina",
+      "summary": "Velka Producciones convocó intérpretes para el musical, con estreno planeado para 2027 y recepción de postulaciones hasta noviembre.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/nine-abrio-audiciones-para-su-regreso-a-la-argentina/",
+      "tags": "nine abrió audiciones para su regreso a la argentina"
+    },
+    {
+      "date": "2026-10-19",
+      "dateLabel": "19 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "West Side Story abrió audiciones con Fer Dente",
+      "summary": "El proyecto publicó una convocatoria para integrar la próxima producción del clásico musical en Buenos Aires.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/west-side-story-abrio-audiciones-con-fer-dente/",
+      "tags": "west side story abrió audiciones con fer dente"
+    },
+    {
       "date": "2026-10-11",
       "dateLabel": "11 OCT 2026",
       "category": "escena",
@@ -156,6 +204,66 @@
       "publisher": "GEA Musical",
       "url": "https://geamusical.com/el-teatro-odeon-reabrira-en-2027-35-anos-despues-de-su-demolicion/",
       "tags": "el teatro odeón anunció su reapertura para 2027"
+    },
+    {
+      "date": "2026-10-09",
+      "dateLabel": "9 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Epic presentó una adaptación musical con entradas disponibles",
+      "summary": "La nota informó el inicio de la venta de entradas para la adaptación escénica de Epic.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/epic-presento-una-adaptacion-musical-con-entradas-disponibles/",
+      "tags": "epic presentó una adaptación musical con entradas disponibles"
+    },
+    {
+      "date": "2026-10-09",
+      "dateLabel": "9 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "La actividad teatral porteña mostró crecimiento durante 2026",
+      "summary": "Un informe citado por GEA Musical registró una variación positiva en la actividad teatral de Buenos Aires durante el año.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/la-actividad-teatral-portena-mostro-crecimiento-durante-2026/",
+      "tags": "la actividad teatral porteña mostró crecimiento durante 2026"
+    },
+    {
+      "date": "2026-10-07",
+      "dateLabel": "7 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Francisco, el Musical mostró su propuesta escénica",
+      "summary": "La cobertura presentó imágenes de la obra dedicada a la vida de Jorge Mario Bergoglio y su llegada al escenario porteño.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/francisco-el-musical-mostro-su-propuesta-escenica/",
+      "tags": "francisco, el musical mostró su propuesta escénica"
+    },
+    {
+      "date": "2026-10-07",
+      "dateLabel": "7 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Shrek abrió audiciones para encontrar a sus Fionas",
+      "summary": "La convocatoria buscó jóvenes intérpretes para los papeles de Fiona en la producción musical anunciada para 2027.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/shrek-abrio-audiciones-para-encontrar-a-sus-fionas/",
+      "tags": "shrek abrió audiciones para encontrar a sus fionas"
+    },
+    {
+      "date": "2026-10-06",
+      "dateLabel": "6 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Valentín Zaninelli se incorporaría a Querido Evan",
+      "summary": "La cobertura informó que el actor sería parte de la nueva temporada argentina del musical, prevista para 2027.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/valentin-zaninelli-se-incorporaria-a-querido-evan/",
+      "tags": "valentín zaninelli se incorporaría a querido evan"
     },
     {
       "date": "2026-10-02",
@@ -170,6 +278,42 @@
       "tags": "belgrano, el musical abrió su convocatoria de elenco"
     },
     {
+      "date": "2026-10-02",
+      "dateLabel": "2 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Intervalo presentó una red social para la comunidad teatral",
+      "summary": "La plataforma fue anunciada como un espacio digital para conectar a espectadores y trabajadores del teatro en Buenos Aires.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/intervalo-presento-una-red-social-para-la-comunidad-teatral/",
+      "tags": "intervalo presentó una red social para la comunidad teatral"
+    },
+    {
+      "date": "2026-10-01",
+      "dateLabel": "1 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Laura Conforte volvería a Querido Evan en 2027",
+      "summary": "La actriz fue anunciada entre las figuras que podrían integrar la nueva temporada argentina del musical.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/laura-conforte-volveria-a-querido-evan-en-2027/",
+      "tags": "laura conforte volvería a querido evan en 2027"
+    },
+    {
+      "date": "2026-10-01",
+      "dateLabel": "1 OCT 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "A tu lado, Camila compartió sus primeras imágenes",
+      "summary": "La producción difundió un primer vistazo de la obra musical inspirada en una historia de amor trágica argentina.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/a-tu-lado-camila-compartio-sus-primeras-imagenes/",
+      "tags": "a tu lado, camila compartió sus primeras imágenes"
+    },
+    {
       "date": "2026-09-28",
       "dateLabel": "28 SEP 2026",
       "category": "escena",
@@ -180,6 +324,78 @@
       "publisher": "GEA Musical",
       "url": "https://geamusical.com/cafe-japon-teatro-musical-entradas-elenco-e-informacion/",
       "tags": "café japón anunció su estreno en el teatro border"
+    },
+    {
+      "date": "2026-09-23",
+      "dateLabel": "23 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Drácula II: Resurrección llegará a Teatrix",
+      "summary": "La producción anunció su disponibilidad en streaming, ampliando el alcance del musical luego de su temporada en vivo.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/dracula-ii-resurreccion-llegara-a-teatrix/",
+      "tags": "drácula ii: resurrección llegará a teatrix"
+    },
+    {
+      "date": "2026-09-21",
+      "dateLabel": "21 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Drácula II: Resurrección anunció su llegada a Corrientes",
+      "summary": "La producción confirmó una temporada porteña para 2027, con funciones previstas en la avenida Corrientes.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/dracula-ii-resurreccion-anuncio-su-llegada-a-corrientes/",
+      "tags": "drácula ii: resurrección anunció su llegada a corrientes"
+    },
+    {
+      "date": "2026-09-21",
+      "dateLabel": "21 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Los Premios GEA del Público se sumaron a Butaca",
+      "summary": "La organización anunció que la votación de sus premios tendría presencia en la plataforma de información teatral.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/los-premios-gea-del-publico-se-sumaron-a-butaca/",
+      "tags": "los premios gea del público se sumaron a butaca"
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Hedwig y la Pulgada Furiosa presentó imágenes de su puesta",
+      "summary": "La producción compartió material visual de la adaptación porteña protagonizada por Nacho Pérez Cortés.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/hedwig-y-la-pulgada-furiosa-presento-imagenes-de-su-puesta/",
+      "tags": "hedwig y la pulgada furiosa presentó imágenes de su puesta"
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "18 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Se anunciaron los Premios Sol de Mayo para estudiantes de teatro musical",
+      "summary": "La nueva distinción fue presentada para reconocer el trabajo de estudiantes y jóvenes artistas del género.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/se-anunciaron-los-premios-sol-de-mayo-para-estudiantes-de-teatro-musical/",
+      "tags": "se anunciaron los premios sol de mayo para estudiantes de teatro musical"
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "18 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Francisco, el Musical del Fin del Mundo llegó al teatro",
+      "summary": "La obra basada en la vida de Jorge Mario Bergoglio presentó su propuesta de música, danza y actuación en Buenos Aires.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/francisco-el-musical-del-fin-del-mundo-llego-al-teatro/",
+      "tags": "francisco, el musical del fin del mundo llegó al teatro"
     },
     {
       "date": "2026-09-17",
@@ -194,6 +410,18 @@
       "tags": "nine anunció su regreso a buenos aires para 2027"
     },
     {
+      "date": "2026-09-16",
+      "dateLabel": "16 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "La familia de Doña Petrona cuestionó un musical sobre su vida",
+      "summary": "La cobertura informó la reacción de una nieta de Doña Petrona ante el proyecto teatral que la tendría como protagonista.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/la-familia-de-dona-petrona-cuestiono-un-musical-sobre-su-vida/",
+      "tags": "la familia de doña petrona cuestionó un musical sobre su vida"
+    },
+    {
       "date": "2026-09-15",
       "dateLabel": "15 SEP 2026",
       "category": "escena",
@@ -204,6 +432,54 @@
       "publisher": "GEA Musical",
       "url": "https://geamusical.com/primeras-imagenes-de-la-profecia-del-albergue/",
       "tags": "la profecía del albergue presentó imágenes de su estreno"
+    },
+    {
+      "date": "2026-09-15",
+      "dateLabel": "15 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Pablo Flores Torres recibió una distinción como joven talento",
+      "summary": "El creador de Alberdi, el Musical fue reconocido en el Congreso por su trabajo artístico.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/pablo-flores-torres-recibio-una-distincion-como-joven-talento/",
+      "tags": "pablo flores torres recibió una distinción como joven talento"
+    },
+    {
+      "date": "2026-09-14",
+      "dateLabel": "14 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Se conocieron los ganadores de los Premios Hugo 2026",
+      "summary": "La ceremonia distinguió a producciones e intérpretes de la temporada de teatro musical argentino.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/se-conocieron-los-ganadores-de-los-premios-hugo-2026/",
+      "tags": "se conocieron los ganadores de los premios hugo 2026"
+    },
+    {
+      "date": "2026-09-13",
+      "dateLabel": "13 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Anastasia anunció su regreso a Buenos Aires en 2027",
+      "summary": "La producción confirmó una nueva temporada local del musical para el año siguiente.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/anastasia-anuncio-su-regreso-a-buenos-aires-en-2027/",
+      "tags": "anastasia anunció su regreso a buenos aires en 2027"
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Teatrix ofreció obras gratuitas por Rosh Hashaná e Iom Kipur",
+      "summary": "La plataforma habilitó temporalmente cuatro títulos para acompañar las celebraciones, según informó GEA Musical.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/teatrix-ofrecio-obras-gratuitas-por-rosh-hashana-e-iom-kipur/",
+      "tags": "teatrix ofreció obras gratuitas por rosh hashaná e iom kipur"
     },
     {
       "date": "2026-09-11",
@@ -218,6 +494,30 @@
       "tags": "shrek volverá a buenos aires con músicos en vivo"
     },
     {
+      "date": "2026-09-10",
+      "dateLabel": "10 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Querido Evan anunció su regreso para enero de 2027",
+      "summary": "La producción confirmó el retorno del musical y anticipó una nueva búsqueda de elenco.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/querido-evan-anuncio-su-regreso-para-enero-de-2027/",
+      "tags": "querido evan anunció su regreso para enero de 2027"
+    },
+    {
+      "date": "2026-09-10",
+      "dateLabel": "10 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Artistas debatieron el uso de música grabada en los musicales",
+      "summary": "La nota reunió la discusión del sector sobre la música en vivo y las pistas en las producciones teatrales.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/artistas-debatieron-el-uso-de-musica-grabada-en-los-musicales/",
+      "tags": "artistas debatieron el uso de música grabada en los musicales"
+    },
+    {
       "date": "2026-09-07",
       "dateLabel": "7 SEP 2026",
       "category": "escena",
@@ -228,6 +528,114 @@
       "publisher": "GEA Musical",
       "url": "https://geamusical.com/personas-que-se-encuentran-en-lugares-vuelve-en-octubre-para-su-cuarta-temporada/",
       "tags": "personas que se encuentran en lugares anunció su cuarta temporada"
+    },
+    {
+      "date": "2026-09-07",
+      "dateLabel": "7 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Carmen Barbieri protagonizaría un musical sobre Doña Petrona",
+      "summary": "La cobertura informó el proyecto biográfico y el nombre de la artista asociado al papel principal, mientras algunos detalles seguían pendientes.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/carmen-barbieri-protagonizaria-un-musical-sobre-dona-petrona/",
+      "tags": "carmen barbieri protagonizaría un musical sobre doña petrona"
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "4 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Invasiones I anunció una vuelta para 2027",
+      "summary": "La ópera rock con canciones de Charly García y Elena Roger comunicó planes para regresar a Buenos Aires el año siguiente.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/invasiones-i-anuncio-una-vuelta-para-2027/",
+      "tags": "invasiones i anunció una vuelta para 2027"
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "4 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Nordelta anunció un teatro con capacidad para 536 espectadores",
+      "summary": "El proyecto difundido prevé sumar una nueva sala a la oferta escénica del área metropolitana.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/nordelta-anuncio-un-teatro-con-capacidad-para-536-espectadores/",
+      "tags": "nordelta anunció un teatro con capacidad para 536 espectadores"
+    },
+    {
+      "date": "2026-09-03",
+      "dateLabel": "3 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "La estación Uruguay sumó el nombre Teatros",
+      "summary": "La estación de la línea B pasó a identificarse oficialmente como Uruguay–Teatros, en referencia al corredor escénico de Corrientes.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/la-estacion-uruguay-sumo-el-nombre-teatros/",
+      "tags": "la estación uruguay sumó el nombre teatros"
+    },
+    {
+      "date": "2026-09-02",
+      "dateLabel": "2 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Diego Gentile se sumó a El curioso incidente del perro a medianoche",
+      "summary": "El actor fue anunciado en la producción porteña de la obra, que combina actuación y elementos musicales.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/diego-gentile-se-sumo-a-el-curioso-incidente-del-perro-a-medianoche/",
+      "tags": "diego gentile se sumó a el curioso incidente del perro a medianoche"
+    },
+    {
+      "date": "2026-09-01",
+      "dateLabel": "1 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Hairspray se convirtió en la obra más vista de Buenos Aires",
+      "summary": "El musical encabezó el ranking porteño de espectadores durante la semana informada por la fuente.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/hairspray-se-convirtio-en-la-obra-mas-vista-de-buenos-aires/",
+      "tags": "hairspray se convirtió en la obra más vista de buenos aires"
+    },
+    {
+      "date": "2026-09-01",
+      "dateLabel": "1 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Melania Lenoir dirigirá The Rocky Horror Show",
+      "summary": "La artista fue anunciada al frente de una nueva producción del musical para Buenos Aires.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/melania-lenoir-dirigira-the-rocky-horror-show/",
+      "tags": "melania lenoir dirigirá the rocky horror show"
+    },
+    {
+      "date": "2026-09-01",
+      "dateLabel": "1 SEP 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Hairspray anunció nuevas funciones para marzo de 2027",
+      "summary": "La producción comunicó su regreso al Teatro Coliseo con una nueva tanda de presentaciones.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/hairspray-anuncio-nuevas-funciones-para-marzo-de-2027/",
+      "tags": "hairspray anunció nuevas funciones para marzo de 2027"
+    },
+    {
+      "date": "2026-08-31",
+      "dateLabel": "31 AGO 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "West Side Story confirmó su llegada para junio de 2027",
+      "summary": "Fer Dente anunció oficialmente la nueva producción del clásico, con detalles de sala y elenco aún por conocerse.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/west-side-story-confirmo-su-llegada-para-junio-de-2027/",
+      "tags": "west side story confirmó su llegada para junio de 2027"
     },
     {
       "date": "2026-08-30",
@@ -264,6 +672,30 @@
       "publisher": "GEA Musical",
       "url": "https://geamusical.com/revolucion-de-mayo-el-nuevo-musical-de-los-productores-de-alberdi-que-llega-a-rosario/",
       "tags": "revolución de mayo anunció una producción musical en rosario"
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 AGO 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Drácula cumplió 35 años desde su estreno",
+      "summary": "La cobertura repasó el aniversario del musical de Pepe Cibrián Campoy y Ángel Mahler, una obra clave de la escena argentina.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/dracula-cumplio-35-anos-desde-su-estreno/",
+      "tags": "drácula cumplió 35 años desde su estreno"
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 AGO 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Buenos Aires avanzó para ser Capital Nacional del Teatro",
+      "summary": "La iniciativa legislativa obtuvo media sanción en la Ciudad, según la cobertura de GEA Musical.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/buenos-aires-avanzo-para-ser-capital-nacional-del-teatro/",
+      "tags": "buenos aires avanzó para ser capital nacional del teatro"
     },
     {
       "date": "2026-08-26",
@@ -338,6 +770,30 @@
       "tags": "se anunciaron las nominaciones a los premios hugo 2026"
     },
     {
+      "date": "2026-08-11",
+      "dateLabel": "11 AGO 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Billy Elliot terminó su temporada porteña entre las obras más vistas",
+      "summary": "La producción cerró sus funciones en Buenos Aires con un lugar destacado en el ranking teatral de la semana.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/billy-elliot-termino-su-temporada-portena-entre-las-obras-mas-vistas/",
+      "tags": "billy elliot terminó su temporada porteña entre las obras más vistas"
+    },
+    {
+      "date": "2026-08-07",
+      "dateLabel": "7 AGO 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "La Profecía del Albergue puso entradas a la venta",
+      "summary": "El thriller musical anunció el inicio de la venta para su temporada en el Paseo La Plaza.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/la-profecia-del-albergue-puso-entradas-a-la-venta/",
+      "tags": "la profecía del albergue puso entradas a la venta"
+    },
+    {
       "date": "2026-08-04",
       "dateLabel": "4 AGO 2026",
       "category": "escena",
@@ -348,6 +804,126 @@
       "publisher": "GEA Musical",
       "url": "https://geamusical.com/primeras-imagenes-alberdi-en-el-teatro-cervantes/",
       "tags": "alberdi, el musical compartió imágenes de su temporada en el cervantes"
+    },
+    {
+      "date": "2026-08-04",
+      "dateLabel": "4 AGO 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Charlie y la Fábrica de Chocolate cerró su temporada en primer lugar",
+      "summary": "La obra terminó sus funciones porteñas encabezando el ranking semanal de espectadores, según la fuente.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/charlie-y-la-fabrica-de-chocolate-cerro-su-temporada-en-primer-lugar/",
+      "tags": "charlie y la fábrica de chocolate cerró su temporada en primer lugar"
+    },
+    {
+      "date": "2026-08-04",
+      "dateLabel": "4 AGO 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Nicolás Vázquez recibió una distinción cultural",
+      "summary": "El actor y productor fue reconocido por su aporte al ámbito cultural, informó GEA Musical.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/nicolas-vazquez-recibio-una-distincion-cultural/",
+      "tags": "nicolás vázquez recibió una distinción cultural"
+    },
+    {
+      "date": "2026-07-28",
+      "dateLabel": "28 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Minerva Casero habló sobre la ausencia de Anastasia en los Premios Pinti",
+      "summary": "La actriz se refirió a la falta de nominaciones de la producción y expresó su mirada sobre el reconocimiento recibido.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/minerva-casero-hablo-sobre-la-ausencia-de-anastasia-en-los-premios-pinti/",
+      "tags": "minerva casero habló sobre la ausencia de anastasia en los premios pinti"
+    },
+    {
+      "date": "2026-07-22",
+      "dateLabel": "22 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "La Pequeña Big Band presentó un espectáculo para compartir en familia",
+      "summary": "La propuesta de jazz anunció funciones orientadas a públicos de distintas edades.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/la-pequena-big-band-presento-un-espectaculo-para-compartir-en-familia/",
+      "tags": "la pequeña big band presentó un espectáculo para compartir en familia"
+    },
+    {
+      "date": "2026-07-21",
+      "dateLabel": "21 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Varios musicales se mantuvieron en el ranking teatral porteño",
+      "summary": "El informe semanal reseñó la presencia sostenida de títulos musicales entre los espectáculos más vistos de Buenos Aires.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/varios-musicales-se-mantuvieron-en-el-ranking-teatral-porteno/",
+      "tags": "varios musicales se mantuvieron en el ranking teatral porteño"
+    },
+    {
+      "date": "2026-07-18",
+      "dateLabel": "18 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "El Secreto de las Hadas llegó al escenario",
+      "summary": "La producción familiar presentó una propuesta que combina cuentos y deseos en una puesta musical.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/el-secreto-de-las-hadas-llego-al-escenario/",
+      "tags": "el secreto de las hadas llegó al escenario"
+    },
+    {
+      "date": "2026-07-16",
+      "dateLabel": "16 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "El Mago de Oz presentó imágenes de su versión en el Cervantes",
+      "summary": "El Teatro Nacional Cervantes compartió un adelanto de la puesta prevista para las vacaciones de invierno.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/el-mago-de-oz-presento-imagenes-de-su-version-en-el-cervantes/",
+      "tags": "el mago de oz presentó imágenes de su versión en el cervantes"
+    },
+    {
+      "date": "2026-07-15",
+      "dateLabel": "15 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Charlie y la Fábrica de Chocolate alcanzó cien mil espectadores",
+      "summary": "La producción celebró un nuevo hito de convocatoria durante su temporada en Buenos Aires.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/charlie-y-la-fabrica-de-chocolate-alcanzo-cien-mil-espectadores/",
+      "tags": "charlie y la fábrica de chocolate alcanzó cien mil espectadores"
+    },
+    {
+      "date": "2026-07-14",
+      "dateLabel": "14 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Billy Elliot recaudó más que Hairspray con menos espectadores",
+      "summary": "El ranking semanal mostró diferencias entre la recaudación y la cantidad de público de ambos musicales.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/billy-elliot-recaudo-mas-que-hairspray-con-menos-espectadores/",
+      "tags": "billy elliot recaudó más que hairspray con menos espectadores"
+    },
+    {
+      "date": "2026-07-09",
+      "dateLabel": "9 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "La producción de Charlie y la Fábrica de Chocolate detalló su ascensor escénico",
+      "summary": "La nota difundió el costo y la dimensión técnica de uno de los dispositivos centrales de la puesta.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/la-produccion-de-charlie-y-la-fabrica-de-chocolate-detallo-su-ascensor-escenico/",
+      "tags": "la producción de charlie y la fábrica de chocolate detalló su ascensor escénico"
     },
     {
       "date": "2026-07-08",
@@ -362,6 +938,18 @@
       "tags": "despertar de primavera anunció dos funciones de regreso"
     },
     {
+      "date": "2026-07-08",
+      "dateLabel": "8 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "Invertido, el Musical fue declarado de interés cultural",
+      "summary": "La obra recibió un reconocimiento institucional en la Ciudad de Buenos Aires.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/invertido-el-musical-fue-declarado-de-interes-cultural/",
+      "tags": "invertido, el musical fue declarado de interés cultural"
+    },
+    {
       "date": "2026-07-06",
       "dateLabel": "6 JUL 2026",
       "category": "escena",
@@ -372,6 +960,30 @@
       "publisher": "GEA Musical",
       "url": "https://geamusical.com/annie-celebra-sus-primeras-100-funciones-en-buenos-aires/",
       "tags": "annie celebró sus primeras cien funciones"
+    },
+    {
+      "date": "2026-07-03",
+      "dateLabel": "3 JUL 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "La Desgracia anunció su novena temporada",
+      "summary": "El musical independiente confirmó su regreso con Mariano Condoluci y nuevas funciones en Buenos Aires.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/la-desgracia-anuncio-su-novena-temporada/",
+      "tags": "la desgracia anunció su novena temporada"
+    },
+    {
+      "date": "2026-06-30",
+      "dateLabel": "30 JUN 2026",
+      "category": "escena",
+      "categoryLabel": "ACTUALIDAD · TEATRO MUSICAL",
+      "status": "Novedad de la temporada",
+      "title": "El Mago de Oz confirmó su elenco para el Cervantes",
+      "summary": "El Teatro Nacional Cervantes anunció los artistas que integrarán la versión musical del clásico durante las vacaciones de invierno.",
+      "publisher": "GEA Musical",
+      "url": "https://geamusical.com/el-mago-de-oz-confirmo-su-elenco-para-el-cervantes/",
+      "tags": "el mago de oz confirmó su elenco para el cervantes"
     },
     {
       "date": "2026-06-19",
