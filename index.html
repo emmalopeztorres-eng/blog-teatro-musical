@@ -1,146 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Mundo Teatro Musical</title>
-
-<style>
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f5f2f0;
-    color: #222;
-}
-
-header {
-    background: #24152f;
-    color: white;
-    text-align: center;
-    padding: 45px;
-}
-
-header h1 {
-    font-size: 42px;
-}
-
-nav {
-    background: #a52c59;
-    padding: 18px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 12px;
-    font-weight: bold;
-}
-
-.portada {
-    padding: 60px 20px;
-    text-align: center;
-    background: #e9dce5;
-}
-
-.contenedor {
-    max-width: 1100px;
-    margin: auto;
-    padding: 30px;
-}
-
-.articulos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.tarjeta {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-}
-
-.tarjeta h3 {
-    color: #a52c59;
-}
-
-footer {
-    background: #24152f;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17121f">
+  <meta name="description" content="Mundo Teatro Musical: noticias, entrevistas, cartelera, críticas e historias del teatro musical argentino e internacional.">
+  <title>Mundo Teatro Musical | La revista</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <div class="topline"><span>LA REVISTA DIGITAL DEL TEATRO MUSICAL</span><span>ARGENTINA · BROADWAY · WEST END · EL MUNDO</span></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Mundo Teatro Musical, inicio"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#actualidad">Actualidad</a><a href="#cartelera">Cartelera</a><a href="#entrevistas">Entrevistas</a><a href="#criticas">Críticas</a><a href="#universo">El universo musical</a>
+    </nav>
+    <a class="header-link" href="#newsletter">SUMATE <span>↗</span></a>
+  </header>
 
-<header>
-<h1>MUNDO TEATRO MUSICAL</h1>
-<p>El universo de los musicales en un solo lugar</p>
-</header>
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow"><i></i> UN ESCENARIO, INFINITAS HISTORIAS</span>
+        <h1>El teatro musical<br><em>está vivo.</em></h1>
+        <p>Un espacio para descubrir lo que pasa arriba, abajo y detrás del telón. Producciones, artistas, ideas y todo lo que hace único a este universo.</p>
+        <a class="button button-light" href="#actualidad">EXPLORAR LA REVISTA <span>→</span></a>
+      </div>
+      <div class="hero-art" aria-label="Ilustración abstracta de un escenario teatral">
+        <div class="spotlight"></div><div class="curtain curtain-left"></div><div class="curtain curtain-right"></div>
+        <div class="stage"><div class="stage-light"></div><span>EL TELÓN<br>ESTÁ POR SUBIR</span></div>
+        <div class="hero-caption">MÚSICA · DANZA · TEATRO</div>
+      </div>
+      <div class="hero-index">01 <span>/</span> 06</div>
+    </section>
 
-<nav>
-<a href="#inicio">Inicio</a>
-<a href="#musicales">Musicales</a>
-<a href="#noticias">Noticias</a>
-<a href="#entrevistas">Entrevistas</a>
-<a href="#historia">Historia</a>
-</nav>
+    <section class="ticker" aria-label="Temas de la revista"><div>NOTICIAS <b>✳</b> CARTELERA <b>✳</b> ENTREVISTAS <b>✳</b> HISTORIA <b>✳</b> PRODUCCIÓN <b>✳</b> ILUMINACIÓN <b>✳</b> BROADWAY <b>✳</b> TEATRO ARGENTINO <b>✳</b></div></section>
 
-<section class="portada" id="inicio">
-<h2>Bienvenidos al mundo del teatro musical</h2>
-<p>Noticias, estrenos, artistas, producciones y toda la actualidad.</p>
-</section>
+    <section class="section-wrap" id="actualidad">
+      <div class="section-heading"><div><span class="eyebrow">LO QUE NOS MUEVE</span><h2>En primer plano</h2></div><span class="section-note">LECTURAS PARA AMANTES DEL GÉNERO</span></div>
+      <div class="featured-grid">
+        <article class="feature-card">
+          <div class="feature-visual visual-stage"><span class="visual-label">DETRÁS DEL TELÓN</span><div class="visual-symbol">✳</div><span class="visual-bottom">UNA OBRA · CIENTOS DE OFICIOS</span></div>
+          <div class="feature-text"><span class="category">PRODUCCIÓN</span><h3>Todo lo que sucede antes de que se encienda la primera luz</h3><p>Una mirada al trabajo creativo, técnico y humano que convierte una idea en un espectáculo en vivo.</p><a href="#universo" class="text-link">LEER MÁS <span>→</span></a></div>
+        </article>
+        <article class="feature-card secondary-feature">
+          <div class="feature-visual visual-notes"><span class="visual-label">EL LENGUAJE DEL MUSICAL</span><div class="music-notes">♪ ♫</div><span class="visual-bottom">CUANDO LA HISTORIA SE VUELVE CANCIÓN</span></div>
+          <div class="feature-text"><span class="category">HISTORIA Y LENGUAJE</span><h3>¿Qué hace que una historia necesite ser contada cantando?</h3><p>Claves para entender el lenguaje narrativo del teatro musical y su potencia expresiva.</p><a href="#universo" class="text-link">LEER MÁS <span>→</span></a></div>
+        </article>
+      </div>
+    </section>
 
-<div class="contenedor">
+    <section class="dark-section" id="cartelera">
+      <div class="section-wrap">
+        <div class="section-heading"><div><span class="eyebrow">AGENDA Y ESCENA</span><h2>La cartelera</h2></div><p class="section-note">Un espacio para seguir los espectáculos, temporadas y estrenos.<br>La agenda se actualizará con información verificada.</p></div>
+        <div class="agenda-panel"><div class="agenda-icon">✦</div><div><h3>El próximo aplauso empieza acá.</h3><p>Próximamente: cartelera por ciudad, sala, fecha y producción.</p></div><a href="#newsletter" class="text-link">SEGUIR NOVEDADES →</a></div>
+      </div>
+    </section>
 
-<h2 id="musicales">Últimos musicales</h2>
+    <section class="section-wrap" id="entrevistas">
+      <div class="section-heading"><div><span class="eyebrow">VOCES DEL ESCENARIO</span><h2>Personas que hacen</h2></div><span class="section-note">ARTISTAS · CREATIVOS · EQUIPOS TÉCNICOS</span></div>
+      <div class="people-grid">
+        <article class="people-card"><div class="people-number">01</div><div><span class="category">ENTREVISTAS</span><h3>En primera persona</h3><p>Actores, actrices, intérpretes y performers cuentan sus recorridos y procesos.</p></div><span class="arrow-round">↗</span></article>
+        <article class="people-card"><div class="people-number">02</div><div><span class="category">DIRECCIÓN Y DRAMATURGIA</span><h3>La mirada creativa</h3><p>Conversaciones con quienes imaginan, escriben y construyen cada puesta.</p></div><span class="arrow-round">↗</span></article>
+        <article class="people-card"><div class="people-number">03</div><div><span class="category">TÉCNICA Y DISEÑO</span><h3>El escenario invisible</h3><p>Iluminación, sonido, escenografía, vestuario, producción y maquinaria teatral.</p></div><span class="arrow-round">↗</span></article>
+      </div>
+    </section>
 
-<div class="articulos">
+    <section class="quote-band" id="criticas"><span class="quote-mark">“</span><blockquote>El teatro musical es un arte colectivo: cada disciplina aporta una voz para contar una misma historia.</blockquote><span class="quote-credit">MUNDO TEATRO MUSICAL · NUESTRA MIRADA</span></section>
 
-<div class="tarjeta">
-<h3>Los grandes musicales</h3>
-<p>Un recorrido por las producciones más importantes del mundo.</p>
-</div>
+    <section class="section-wrap universe" id="universo">
+      <div class="section-heading"><div><span class="eyebrow">MUCHO MÁS QUE UN GÉNERO</span><h2>Explorá el universo</h2></div><span class="section-note">SECCIONES DE LA REVISTA</span></div>
+      <div class="topic-grid">
+        <a href="#actualidad"><span>01</span><strong>Noticias</strong><small>Actualidad y novedades</small><b>↗</b></a>
+        <a href="#cartelera"><span>02</span><strong>Cartelera</strong><small>Obras y temporadas</small><b>↗</b></a>
+        <a href="#entrevistas"><span>03</span><strong>Entrevistas</strong><small>Voces de la escena</small><b>↗</b></a>
+        <a href="#criticas"><span>04</span><strong>Críticas</strong><small>Opinión y análisis</small><b>↗</b></a>
+        <a href="#universo"><span>05</span><strong>Historia</strong><small>Obras que hicieron historia</small><b>↗</b></a>
+        <a href="#universo"><span>06</span><strong>Formación</strong><small>Entrenamiento y aprendizaje</small><b>↗</b></a>
+        <a href="#universo"><span>07</span><strong>Producción</strong><small>El detrás de escena</small><b>↗</b></a>
+        <a href="#universo"><span>08</span><strong>Diseño escénico</strong><small>Luz, sonido y espacio</small><b>↗</b></a>
+        <a href="#universo"><span>09</span><strong>Broadway & West End</strong><small>La escena internacional</small><b>↗</b></a>
+        <a href="#universo"><span>10</span><strong>Musical argentino</strong><small>Identidad y producción local</small><b>↗</b></a>
+      </div>
+    </section>
 
-<div class="tarjeta">
-<h3>Teatro musical argentino</h3>
-<p>Las producciones que marcaron la historia de nuestro país.</p>
-</div>
-
-<div class="tarjeta">
-<h3>Broadway</h3>
-<p>Los grandes espectáculos de Nueva York.</p>
-</div>
-
-<div class="tarjeta">
-<h3>West End</h3>
-<p>Las novedades del teatro musical londinense.</p>
-</div>
-
-</div>
-
-<h2 id="noticias">Noticias</h2>
-<p>Las últimas novedades del mundo del espectáculo.</p>
-
-<h2 id="entrevistas">Entrevistas</h2>
-<p>Conversaciones con artistas y profesionales.</p>
-
-<h2 id="historia">Historia del musical</h2>
-<p>Un recorrido por la evolución del género.</p>
-
-</div>
-
-<footer>
-<p>MUNDO TEATRO MUSICAL</p>
-<p>Un espacio dedicado al arte y al espectáculo.</p>
-</footer>
-
+    <section class="newsletter" id="newsletter"><div><span class="eyebrow">NO TE PIERDAS NINGUNA FUNCIÓN</span><h2>La revista llega<br><em>a tu mundo.</em></h2><p>Muy pronto vas a poder recibir novedades, entrevistas y recomendaciones.</p></div><a class="button button-dark" href="mailto:hola@mundoteatromusical.com?subject=Quiero%20seguir%20Mundo%20Teatro%20Musical">QUIERO ESTAR AL TANTO <span>↗</span></a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#inicio"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a><p>Una revista para quienes viven el teatro musical.</p><span class="copyright">© 2026 MUNDO TEATRO MUSICAL · TODOS LOS DERECHOS RESERVADOS</span></footer>
+  <script src="app.js"></script>
 </body>
 </html>
