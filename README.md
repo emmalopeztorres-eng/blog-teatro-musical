@@ -7,6 +7,7 @@ Revista digital dedicada al teatro musical argentino e internacional.
 - Cartelera
 - Entrevistas
 - Críticas y análisis
+- Material audiovisual
 - Historia del teatro musical
 - Formación
 - Producción y backstage

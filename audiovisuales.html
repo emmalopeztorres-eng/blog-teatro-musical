@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17121f">
+  <meta name="description" content="Tráilers, clips y materiales audiovisuales autorizados del teatro musical, reunidos por Mundo Teatro Musical.">
+  <title>Material audiovisual | Mundo Teatro Musical</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="audiovisuales.css">
+</head>
+<body>
+  <div class="topline"><span>LA REVISTA DIGITAL DEL TEATRO MUSICAL</span><span>ARGENTINA · BROADWAY · WEST END · EL MUNDO</span></div>
+  <header class="site-header">
+    <a class="brand" href="index.html#inicio" aria-label="Mundo Teatro Musical, inicio"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="actualidad.html">Actualidad</a><a href="cartelera.html">Cartelera</a><a href="artistas.html">Artistas</a><a class="active" href="audiovisuales.html">Audiovisual</a><a href="index.html#entrevistas">Entrevistas</a><a href="resenas.html">Reseñas</a><a href="index.html#universo">El universo musical</a>
+    </nav>
+    <a class="header-link" href="index.html#newsletter">SUMATE <span>↗</span></a>
+  </header>
+
+  <main id="inicio">
+    <section class="av-hero">
+      <div class="av-hero-copy">
+        <span class="eyebrow"><i></i> ESCENA EN MOVIMIENTO</span>
+        <h1>Material<br><em>audiovisual.</em></h1>
+        <p>Tráilers, fragmentos y registros para seguir explorando las obras. Cada pieza conserva su reproductor y su fuente original.</p>
+        <a class="button button-light" href="#catalogo">RECORRER LA COLECCIÓN <span>↓</span></a>
+      </div>
+      <div class="av-hero-art" aria-label="Composición gráfica inspirada en una pantalla de teatro">
+        <div class="av-frame"><span class="av-frame-top">MUNDO TEATRO MUSICAL · ARCHIVO</span><div class="av-play">▶</div><span class="av-frame-bottom">OBRAS · VOCES · ESCENARIOS</span></div>
+        <span class="av-hero-index">IMAGEN · SONIDO · ESCENA</span>
+      </div>
+    </section>
+
+    <section class="av-intro">
+      <div class="av-intro-mark">✳</div>
+      <p>La colección reúne <strong>14 fichas</strong> basadas en el material recibido. Publicamos clips, tráilers y referencias de fuentes oficiales o archivos institucionales. Las grabaciones completas alojadas en cuentas personales o carpetas compartidas quedan fuera hasta confirmar su autorización. Los subtítulos de los recursos seleccionados no están verificados en todos los casos.</p>
+    </section>
+
+    <section class="av-catalogue" id="catalogo">
+      <div class="section-heading">
+        <div><span class="eyebrow">PARA VER Y ESCUCHAR</span><h2>La colección</h2></div>
+        <span class="section-note">OBRAS · VERSIONES · ARCHIVOS</span>
+      </div>
+
+      <div class="av-controls" aria-label="Buscar y filtrar materiales audiovisuales">
+        <label class="av-search"><span>BUSCAR</span><input id="mediaSearch" type="search" placeholder="Obra, versión o fuente…" autocomplete="off"></label>
+        <label><span>TIPO DE MATERIAL</span><select id="typeFilter"><option value="all">Todos los tipos</option></select></label>
+        <label><span>FUENTE</span><select id="sourceFilter"><option value="all">Todas las fuentes</option></select></label>
+      </div>
+      <p class="av-count" id="mediaCount" aria-live="polite">Cargando fichas…</p>
+      <div class="av-grid" id="mediaGrid"></div>
+      <div class="av-empty" id="mediaEmpty" hidden><span>✳</span><h3>No encontramos materiales con esos filtros.</h3><p>Probá con otro título o restablecé la búsqueda.</p><button class="av-reset" id="resetFilters" type="button">LIMPIAR FILTROS</button></div>
+    </section>
+
+    <section class="av-policy">
+      <div><span class="eyebrow">CRITERIO DE LA SECCIÓN</span><h2>El escenario sigue en su fuente.</h2></div>
+      <p>Mundo Teatro Musical enlaza o inserta reproductores de las plataformas que publican cada pieza. No alojamos grabaciones. Si representás una obra y querés proponer un video autorizado, podés escribirnos desde la portada.</p>
+      <a class="text-link" href="index.html#newsletter">CONTACTAR A LA REVISTA <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="index.html#inicio"><span class="brand-mark">MTM</span><span><strong>MUNDO</strong><small>TEATRO MUSICAL</small></span></a><p>Una revista para quienes viven el teatro musical.</p><span class="copyright">© 2026 MUNDO TEATRO MUSICAL · TODOS LOS DERECHOS RESERVADOS</span></footer>
+  <script src="app.js"></script>
+  <script src="audiovisuales.js"></script>
+</body>
+</html>
