@@ -172,10 +172,10 @@ function cardMarkup(item,index){
   const pending=item.status==="Pendiente"||item.status==="Pendiente de autorización";
   const statusClass=pending?" pending":"";
   const badge=pending?"En revisión":item.status==="Archivo"?"Archivo institucional":"Fuente externa";
-  const visual='<div class="av-visual" aria-hidden="true"><span class="av-visual-mark">'+escapeHtml(item.title.length>27?item.title.slice(0,24)+"…":item.title)+'</span><span class="av-visual-caption">MATERIAL AUDIOVISUAL · '+escapeHtml(item.type.toLocaleUpperCase("es"))+'</span></div>';
+  const visual='<div class="av-visual" aria-hidden="true"><span class="av-visual-mark">'+escapeHtml("MTM")+'</span><span class="av-visual-caption">MATERIAL AUDIOVISUAL · '+escapeHtml(item.type.toLocaleUpperCase("es"))+'</span></div>';
   const noResource=pending?'<div class="av-no-resource">Enlace individual pendiente de autorización verificable.</div>':item.status==="Archivo"?'<div class="av-no-resource">Ficha institucional disponible; sin visionado público autorizado.</div>':"";
   const regionBadge='<span class="av-badge region">'+escapeHtml(item.region||"Internacional")+'</span>';
-  return '<article class="av-card"><div class="av-card-head"><span class="av-card-number">'+String(index+1).padStart(03,"0")+'</span><div class="av-badges">'+regionBadge+'<span class="av-badge'+statusClass+'">'+escapeHtml(badge)+'</span><span class="av-badge">'+escapeHtml(item.type)+'</span></div></div>'+visual+'<div class="av-card-body"><span class="av-card-source">'+escapeHtml(item.source)+' · '+escapeHtml(item.version||"")+'</span><h3>'+escapeHtml(item.title)+'</h3><p>'+escapeHtml(item.description)+'</p><div class="av-resource-list">'+resourceLinks(item)+noResource+'</div></div></article>'
+  return '<article class="av-card"><div class="av-card-head"><span class="av-card-number">'+String(index+1).padStart(3,"0")+'</span><div class="av-badges">'+regionBadge+'<span class="av-badge'+statusClass+'">'+escapeHtml(badge)+'</span><span class="av-badge">'+escapeHtml(item.type)+'</span></div></div>'+visual+'<div class="av-card-body"><span class="av-card-source">'+escapeHtml(item.source)+' · '+escapeHtml(item.version||"")+'</span><h3>'+escapeHtml(item.title)+'</h3><p>'+escapeHtml(item.description)+'</p><div class="av-resource-list">'+resourceLinks(item)+noResource+'</div></div></article>'
 }
 function renderMedia(){
   const query=mediaSearch.value.trim().toLocaleLowerCase("es"),type=typeFilter.value,source=sourceFilter.value,region=regionFilter.value;
