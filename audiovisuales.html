@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#17121f">
-  <meta name="description" content="Tráilers, clips y materiales audiovisuales autorizados del teatro musical, reunidos por Mundo Teatro Musical.">
+  <meta name="description" content="Entrevistas, reseñas en video, clips y archivos audiovisuales del teatro musical argentino e internacional.">
   <title>Material audiovisual | Mundo Teatro Musical</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
       <div class="av-hero-copy">
         <span class="eyebrow"><i></i> ESCENA EN MOVIMIENTO</span>
         <h1>Material<br><em>audiovisual.</em></h1>
-        <p>Tráilers, fragmentos y registros para seguir explorando las obras. Cada pieza conserva su reproductor y su fuente original.</p>
+        <p>Entrevistas, reseñas en video, clips y registros, ordenados por origen. Cada recurso abre su video individual en la fuente original.</p>
         <a class="button button-light" href="#catalogo">RECORRER LA COLECCIÓN <span>↓</span></a>
       </div>
       <div class="av-hero-art" aria-label="Composición gráfica inspirada en una pantalla de teatro">
@@ -39,7 +39,7 @@
 
     <section class="av-intro">
       <div class="av-intro-mark">✳</div>
-      <p>La colección reúne <strong>14 fichas</strong> basadas en el material recibido. Publicamos clips, tráilers y referencias de fuentes oficiales o archivos institucionales. Las grabaciones completas alojadas en cuentas personales o carpetas compartidas quedan fuera hasta confirmar su autorización. Los subtítulos de los recursos seleccionados no están verificados en todos los casos.</p>
+      <p>La colección suma 117 referencias del documento y 14 materiales previos. Las playlists se desglosan en fichas con enlaces individuales a videos públicos. Las entrevistas y reseñas en video se atribuyen a sus canales de origen; no son críticas propias de MTM. Las grabaciones completas sin autorización pública comprobable se identifican sin enlace.</p>
     </section>
 
     <section class="av-catalogue" id="catalogo">
@@ -52,9 +52,11 @@
         <label class="av-search"><span>BUSCAR</span><input id="mediaSearch" type="search" placeholder="Obra, versión o fuente…" autocomplete="off"></label>
         <label><span>TIPO DE MATERIAL</span><select id="typeFilter"><option value="all">Todos los tipos</option></select></label>
         <label><span>FUENTE</span><select id="sourceFilter"><option value="all">Todas las fuentes</option></select></label>
+        <label><span>REGIÓN</span><select id="regionFilter"><option value="all">Argentina e internacional</option></select></label>
       </div>
       <p class="av-count" id="mediaCount" aria-live="polite">Cargando fichas…</p>
       <div class="av-grid" id="mediaGrid"></div>
+      <button class="av-load-more" id="loadMore" type="button" hidden>MOSTRAR MÁS MATERIALES</button>
       <div class="av-empty" id="mediaEmpty" hidden><span>✳</span><h3>No encontramos materiales con esos filtros.</h3><p>Probá con otro título o restablecé la búsqueda.</p><button class="av-reset" id="resetFilters" type="button">LIMPIAR FILTROS</button></div>
     </section>
 
